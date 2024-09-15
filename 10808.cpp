@@ -14,7 +14,8 @@ int main() {
             }
         }
     }
-    
-
+    for(int i = 0; i < sizeof(output) / sizeof(output[0]); i++){
+        cout << output[i] << " ";
+    }
     return 0;
 }
