@@ -2,3 +2,4 @@
 *.exe
 *.bin
 .cph/
+.DS_Store
