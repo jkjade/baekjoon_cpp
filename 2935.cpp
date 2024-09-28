@@ -21,6 +21,10 @@ int main(){
                 b[b.length() - a.length()] = '1';
                 cout << b;
             }
+            else if(a.length() == b.length()){
+                a[0] = '2';
+                cout << a;
+            }
             break;
         default:
             break;
