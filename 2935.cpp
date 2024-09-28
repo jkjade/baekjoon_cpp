@@ -22,7 +22,7 @@ int main(){
                 cout << b;
             }
             else if(a.length() == b.length()){
-                a[0] = '2';
+                a[0] = 2;
                 cout << a;
             }
             break;
